@@ -1,13 +1,28 @@
 {
   "files": {
-    "main.css": "/new-pages/static/css/main.e6c13ad2.css",
-    "main.js": "/new-pages/static/js/main.0d0de733.js",
+    "main.css": "/new-pages/static/css/main.c0cadec1.css",
+    "main.js": "/new-pages/static/js/main.05146810.js",
+    "static/media/avatar.png": "/new-pages/static/media/avatar.1c35e455bfaa904b0ad0.png",
+    "static/media/Burtons.otf": "/new-pages/static/media/Burtons.c46a2405716f236c4a9a.otf",
+    "static/media/react.svg": "/new-pages/static/media/react.89be38bf90566c0ace1dc2d36f8de315.svg",
+    "static/media/newPatikaLogo.svg": "/new-pages/static/media/newPatikaLogo.c27785d9135acc0535e74fa229fb5701.svg",
+    "static/media/php.svg": "/new-pages/static/media/php.5e38829ef6e0fac555856ffc315ae358.svg",
+    "static/media/next.svg": "/new-pages/static/media/next.bfb23e822fc36bcdb6ef5e563dd35342.svg",
+    "static/media/slick.svg": "/new-pages/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/new-pages/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/new-pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/new-pages/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/javascript.svg": "/new-pages/static/media/javascript.f00ebe1736c09b86f023e836978ac6e3.svg",
     "index.html": "/new-pages/index.html",
-    "main.e6c13ad2.css.map": "/new-pages/static/css/main.e6c13ad2.css.map",
-    "main.0d0de733.js.map": "/new-pages/static/js/main.0d0de733.js.map"
+    "static/media/bootstrap.svg": "/new-pages/static/media/bootstrap.c64ac3eacd09b9b41a258538de7513d4.svg",
+    "static/media/tailwind.svg": "/new-pages/static/media/tailwind.7e8713d3522b34c4bf6b59dbc9c353b8.svg",
+    "static/media/css.svg": "/new-pages/static/media/css.7dd00ddab98a63328c3991fe81f21047.svg",
+    "static/media/html.svg": "/new-pages/static/media/html.a026abbb678246d70ee9b70e4aee972c.svg",
+    "main.c0cadec1.css.map": "/new-pages/static/css/main.c0cadec1.css.map",
+    "main.05146810.js.map": "/new-pages/static/js/main.05146810.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.0d0de733.js"
+    "static/css/main.c0cadec1.css",
+    "static/js/main.05146810.js"
   ]
 }
