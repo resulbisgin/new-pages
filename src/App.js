@@ -1,10 +1,10 @@
+import {AiFillMail,AiFillLinkedin} from 'react-icons/ai'
 import avatar from './images/avatar.png'
 import patika from "./images/newPatikaLogo.svg"
-import Slider from "react-slick";
 import {data} from "./data"
-import {AiFillMail,AiFillLinkedin} from 'react-icons/ai'
-
+import Slider from "react-slick";
 function App() {
+  
   const settings = {
     dots: true,
     infinite: false,
@@ -44,21 +44,34 @@ function App() {
     ]
   };
 
+  const handleClickScroll = () => {
+    const element = document.getElementById('section-1');
+    if (element) {
+      
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-
+  const handleClickScroll1 = () => {
+    const element = document.getElementById('section-2');
+    if (element) {
+   
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
       <main className='bg-white px-10 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
-          <nav className='py-10 mb-12 flex justify-between'>
+        <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons'>RESUL BİŞGİN</h1>
             <ul className='flex items-center text-lg '>
-              <li className='text-teal-500  font-medium px-2 cursor-pointer hover:underline transition-all'>About</li>
-              <li className=' text-teal-500 font-medium hover:underline  cursor-pointer transition-all'>Skills</li>
+             <li className='text-teal-500  font-medium px-2 cursor-pointer hover:underline transition-all' onClick={handleClickScroll1}>About</li>
+            <li className=' text-teal-500 font-medium hover:underline  cursor-pointer transition-all' onClick={handleClickScroll}>Skills  </li>
             </ul>
           </nav>
-          <div className='text-center p-10'>
+          <div className='text-center p-10' id='section-2'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Resul Bişgin</h2>
             <h3 className='text-2xl py-2 md:text-3xl '>Front-End Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>
@@ -75,10 +88,11 @@ function App() {
         <div className='  bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 mx-auto mt-20 mb-20 overflow-hidden flex justify-center items-center md:w-96 '>
             <img src={avatar} className="  w-[230px] h-[230px] object-fill"   />
         </div>
+    
 
         <Slider {...settings}>
           {data.map((item)=>(
-            <div  key={item.id}>
+            <div id='section-1' key={item.id}>
               <div className='flex justify-center items-center'>
                 <img  className="w-[120px] h-[120px]"  src={item.url}/>
               </div>
@@ -92,9 +106,10 @@ function App() {
         </Slider>
         
         
-        
         </section>
       </main>
+    
+        
     </>
   );
 }
