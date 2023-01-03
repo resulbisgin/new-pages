@@ -64,7 +64,7 @@ function App() {
     <>
       <main className='bg-white px-10 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
-        <nav className='py-10 mb-12 flex justify-between'>
+        <nav className='py-10 mb-0 flex justify-between'>
             <h1 className='text-xl font-burtons'>RESUL BİŞGİN</h1>
             <ul className='flex items-center text-lg '>
              <li className='text-teal-500  font-medium px-2 cursor-pointer hover:underline transition-all' onClick={handleClickScroll1}>About</li>
@@ -80,12 +80,12 @@ function App() {
              products for people. 
             </p>
           </div>
-        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-700'>
+        <div className='text-5xl flex justify-center gap-12 py-3 text-gray-700'>
          <a href="mailto:resulbiginresul_20011@hotmail.com"><AiFillMail/></a>   
            <a href="https://www.linkedin.com/in/resulbi%C5%9Fgin/"> <AiFillLinkedin/></a>
            <a href="https://app.patika.dev/resulbsgn"><img src={patika} className="w-[76px] h-[76px]" /></a>
         </div>
-        <div className='  bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 mx-auto mt-20 mb-20 overflow-hidden flex justify-center items-center md:w-96 '>
+        <div className='  bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 mx-auto mt-10 mb-10 overflow-hidden flex justify-center items-center md:w-96 '>
             <img src={avatar} className="  w-[230px] h-[230px] object-fill"   />
         </div>
     
